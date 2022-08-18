@@ -22,7 +22,7 @@ class ViewController: UIViewController {
         
         countries += ["estonia","france", "germany",
                       "ireland", "italy", "monaco", "nigeria",
-                      "poland", "spain", "uk", "us"]
+                      "poland", "spain", "switzerland", "uk", "ukraine", "us"]
         
         button1.layer.borderWidth = 1
         button2.layer.borderWidth = 1
