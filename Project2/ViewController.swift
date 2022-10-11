@@ -83,3 +83,28 @@ class ViewController: UIViewController {
     }
 }
 
+protocol Increaser {
+    
+    var value: Int {get set}
+    func increase()
+    
+    
+}
+
+class MyNumber: Increaser {
+    var value: Int
+    
+    init(number: Int) {
+        self.value = number
+    }
+    
+     func increase() {
+        value = value + 1
+    }
+}
+
+//var num = MyNumber(number: 1)
+//num.increase()
+//
+//Equatable
+
